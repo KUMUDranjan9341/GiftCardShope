@@ -20,7 +20,7 @@ export function AuthProvider({ children }) {
 
   const SERVER_URL = process.env.NODE_ENV === 'production'
   ? 'https://vsee.netlify.app'
-  : 'http://localhost:3523';
+  : 'https://giftcardshope.onrender.com';
   
   
 
