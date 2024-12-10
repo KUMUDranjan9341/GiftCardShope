@@ -1,0 +1,7 @@
+.bg_p{background-color: #BFCDE0 !important;}
+
+@media (max-width: 778px) {
+    .hide {
+        display: none !important;
+    }
+}

@@ -1,0 +1,68 @@
+
+
+.gender {
+    cursor: pointer; 
+  }
+
+  .gender-symbol {
+    color: brown; 
+    font-size: 14px; 
+    margin-right: 8px; 
+  }
+  
+  /* Highlight active gender div */
+ 
+  
+  .gender.active .gender-symbol {
+    display: inline; 
+  }
+
+  .my_order:hover{
+    /* background-color: rgb(220, 215, 215) !important; */
+    background-color: rgb(241 241 241) !important;
+    transition: 1s ease all;
+  }
+  .order_image{
+    height: 80px ;
+    width: 80px ;
+    margin: 10px;
+  }
+  .icon_height{
+    margin-top: 55%;
+  }
+
+  .items_details{
+    background-color: rgb(241 241 241) !important;
+    /* height: 300px; */
+  }
+ 
+  .help{
+    /* margin-top: 10px; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .deliver{
+    /* background-color: rgb(128, 188, 17); */
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .cursor_pointer{
+    cursor: pointer;
+  }
+  .invoice:hover{
+    background-color: rgb(229, 229, 229) !important;
+    transition: 1s ease all;
+  }
+  
+ 
+  
+ 
+  

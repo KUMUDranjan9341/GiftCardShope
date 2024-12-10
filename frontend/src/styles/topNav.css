@@ -1,0 +1,77 @@
+.top-nav{
+    border-bottom: 1px solid #ebebeb !important;
+}
+
+.border_img{
+    background-image: url('../assets/images/line-dot.png');
+    height: 60%;
+    width: 50%;
+}
+.border-d{
+    background-image: url('../assets/images/line-dot.png');
+    height: 8px;
+}
+.bx1{
+    background-color: white;
+    height: 24px;
+    width: 10px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 2px;
+    transform: rotate(150deg);
+    left: -2px;
+}
+
+.bx2{
+    background-color: white;
+    height: 24px;
+    width: 10px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 17px;
+    transform: rotate(33deg);
+    left: -3px;
+}
+.bx3{
+    background-color: white;
+    height: 24px;
+    width: 10px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 2px;
+    transform: rotate(218deg);
+    right: -2px;
+}
+
+.bx4{
+    background-color: white;
+    height: 24px;
+    width: 10px;
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 17px;
+    transform: rotate(146deg);
+    right: -3px;
+}
+
+
+.nav-link{
+    transition: .6s ease-in-out !important;
+}
+
+
+.nav-link:hover{
+  background-color: #fed2cc !important;
+  color: #be7374 !important;
+ 
+
+}
+
+input{
+    outline: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+

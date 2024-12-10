@@ -1,0 +1,88 @@
+.pointer_text {
+  cursor: pointer;
+}
+.card_image{
+  width: 100px;
+  height: 115px;
+  border: 1px solid brown;
+}
+
+/* Cart address  */
+.modale_footer{
+  display: block !important;
+}
+.text_dark{
+  color: black !important;
+}
+
+
+.form_wrap {
+  background: white;
+  position:relative;
+}
+
+
+/* Input form Style */
+
+.address_input {
+  border: 1px solid #b4b3b3;
+  border-radius: 5px;
+  height: 45px;
+  width:100%;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 20px;
+  box-shadow: none;  
+}
+
+/* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
+
+input:focus + label, input:valid + label{
+  font-size: 12px;
+  color: #afbdcf;
+  top: -5px;
+  left:10px;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.input_wrap {width:auto; height:auto; position:relative;
+}
+
+.input_wrap label {
+  font-family:arial;
+  font-size:14px;
+  color: #545b64;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  pointer-events: none;
+
+}
+.fw_{
+  font-weight: 500;
+}
+.w_15{
+  width: 15%;
+}
+.bg_ece8e3{
+  background-color: #ece8e3;
+}
+.w_80{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+

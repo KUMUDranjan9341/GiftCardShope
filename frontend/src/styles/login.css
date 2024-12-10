@@ -1,0 +1,35 @@
+.form-control {
+    border-left: none !important; 
+}
+
+.form-control:focus {
+    border-left: none !important; 
+    border-color: #86b7fe !important; 
+    box-shadow: 0 0 0 0.2rem rgba(134, 183, 254, 0.25); 
+}
+
+.input-group-text {
+    border-right: 2px solid lightgrey !important; 
+}
+
+
+.input-group:focus-within .input-group-text {
+    border-color: #86b7fe !important; 
+}
+
+#login-section{
+    min-height: 92dvh;
+    background-color: #fdefe9 !important;
+}
+
+.pass-eye{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.btn-login{
+    background-color: #be7374 !important;
+}

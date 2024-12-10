@@ -1,0 +1,54 @@
+.dotted-line {
+  border: none; 
+  border-top: 2px dotted #000; 
+  width: 100%; 
+  margin: 20px 0; 
+}
+/* .input-group{
+  border-bottom: 1px solid gray;
+} */
+.contact_input{
+border: none;
+outline: none !important;
+}
+.contact_form textarea{
+  border: none;
+  margin: 0px !important;
+  outline: none;
+}
+.contact_form button{
+  outline: none;
+} 
+.tech{
+display: flex;
+justify-content: space-around;
+}
+.submit p{
+  color: black;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.b_doted {
+  position: relative;
+  display: inline-block; 
+  overflow: hidden; 
+}
+
+.b_doted::after {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: brown; 
+  transition: width 0.4s ease; 
+}
+
+.b_doted:hover::after {
+  width: 96%; 
+}
+.bg_g{
+  background-color: rgb(239, 239, 239, 1);
+}

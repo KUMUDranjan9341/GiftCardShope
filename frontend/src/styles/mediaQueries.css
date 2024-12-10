@@ -1,0 +1,53 @@
+
+@media (max-width:320px) {
+    .overlay{
+        right: 5%;
+    }
+
+    .h-fx{
+        height: 350px;
+      }
+    
+  }
+
+
+  
+  @media (max-width:450px) {
+    .h-fx{
+        height: 340px !important;
+      }
+      .overlap{
+        height: 150px;
+        width: 260px;
+      }
+      h1{
+        font-size: 22px !important;
+      }
+      h5{
+        font-size: 16px !important;
+      }
+    
+}
+
+
+  @media (max-width:78px) {
+    .h-fx{
+        height: 450px;
+      }
+    
+}
+
+  
+@media (max-width:978px) {
+    .h-fx{
+        height: 500px;
+      }
+    
+}
+
+
+@media (min-width:978px) {
+    .mtl-30{
+        margin-top: -25%;
+    }
+}

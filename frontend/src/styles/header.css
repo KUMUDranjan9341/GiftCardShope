@@ -1,0 +1,33 @@
+/* CSS for the mega menu */
+.mega-menu {
+  width: 500px;
+  display: none; 
+  position: absolute; 
+  left: 0; 
+  top: 100%; 
+  background-color: white;
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  z-index: 1000; 
+}
+
+.nav-item.dropdown:hover .mega-menu {
+  display: block; 
+}
+
+.dropdown-header {
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+.list-unstyled {
+  padding: 0; 
+}
+
+.dropdown-item {
+  color: #000; 
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0; 
+}
