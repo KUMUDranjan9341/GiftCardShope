@@ -18,9 +18,9 @@ export function AuthProvider({ children }) {
     navigate('/'); // Redirect to home page after logout.
   };
 
-  const SERVER_URL = process.env.NODE_ENV === 'production'
+ const SERVER_URL = process.env.NODE_ENV === 'production'
   ? 'https://vsee.netlify.app'
-  : 'http://localhost:3523'';
+  : 'http://localhost:3523';
   
   
 
